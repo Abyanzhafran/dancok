@@ -5,6 +5,4 @@ type SelectParameter struct {
 	CompositeFilterDescriptors []CompositeFilterDescriptor
 	SortDescriptors            []SortDescriptor
 	PageDescriptor             PageDescriptor
-	SearchTerm                 string
-	SearchFields               []string
 }
